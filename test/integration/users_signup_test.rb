@@ -13,7 +13,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     assert_template 'users/new'
 
-    #assert_select 'div.error-field'
+    assert_select 'div.error-field'
     #assert_select 'div.error-field'
   end
 test "valid signup information" do
