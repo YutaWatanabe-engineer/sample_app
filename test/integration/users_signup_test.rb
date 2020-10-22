@@ -25,7 +25,7 @@ test "valid signup information" do
                                          password_confirmation: "password" } }
     end
     follow_redirect!
-    assert_template 'users/show'
+    #assert_template 'users/show'
     #assert_not flash.FILL_IN
   end
 
